@@ -28,7 +28,7 @@ const skills: SkillCategory[] = [
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="flex flex-col items-center gap-12 -mt-16">
+    <div className="flex flex-col items-center gap-12 -mt-10">
       {/* ABOUT SECTION */}
       <div className="relative min-h-screen w-full flex flex-col justify-center items-center gap-6 -mt-1">
         <div
