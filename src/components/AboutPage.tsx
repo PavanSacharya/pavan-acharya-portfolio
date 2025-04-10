@@ -32,6 +32,7 @@ const AboutPage: React.FC = () => {
       {/* ABOUT SECTION */}
       <div className="relative min-h-screen w-full flex flex-col justify-center items-center gap-6 -mt-1">
         <div
+         id="about"
           className="lg:text-[80px] text-center tracking-tighter text-foreground mt-4 !text-[#dad7cd]"
           style={{ fontFamily: "Degular, sans-serif", fontWeight: 600 }}
         >
