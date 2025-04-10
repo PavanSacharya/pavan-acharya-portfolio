@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function AnimatedPinDemo() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center space-y-6 pt-24 -mt-40">
+    <div className="min-h-screen flex flex-col items-center justify-center space-y-6 pt-24 -mt-36">
       {/* Main Heading and Description */}
       <div className="text-center">
         <h1

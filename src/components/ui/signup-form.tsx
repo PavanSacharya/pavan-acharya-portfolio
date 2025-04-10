@@ -84,7 +84,7 @@ export default function SignupFormDemo({ setShowForm }: { setShowForm?: (value: 
           </LabelInputContainer>
 
           <button className="group/btn relative block h-10 w-full mt-4 rounded-md bg-gradient-to-br from-gray-700 to-gray-600 font-medium text-white" type="submit">
-            Sign up →
+            Submit
             <BottomGradient />
           </button>
 

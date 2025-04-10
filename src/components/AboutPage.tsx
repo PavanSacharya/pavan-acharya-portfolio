@@ -56,7 +56,7 @@ const AboutPage: React.FC = () => {
         </div>
 
       </div>
-      <div className="min-h-screen to-indigo-900 flex flex-col items-center gap-7 -mt-20 " style={{ fontFamily: "Degular, sans-serif", fontWeight: 400 }}>
+      <div className="min-h-screen to-indigo-900 flex flex-col items-center gap-7 -mt-18 " style={{ fontFamily: "Degular, sans-serif", fontWeight: 400 }}>
         {skills.map((category, index) => (
           <div key={index} className="p-6 rounded-2xl w-full max-w-4xl shadow-lg border border-[#588157] ">
             <h2 className="text-[#dad7cd] text-xl font-semibold border-b border-[#588157] pb-2 mb-4">
