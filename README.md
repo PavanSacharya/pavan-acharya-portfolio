@@ -7,7 +7,7 @@ This is my personal portfolio website built using Next.js, Tailwind CSS, and Typ
 ## Features
 
 # ✨Home: Introduction and highlights.
-![Screenshot 2024-06-28 101443]()
+(https://github.com/PavanSacharya/pavan-acharya-portfolio/blob/master/public/assets/portfolio/frontpage.png)
 
 ## Installation
 
