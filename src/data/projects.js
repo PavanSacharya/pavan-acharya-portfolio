@@ -11,8 +11,8 @@ const projects = [
     techStack: ["Next.js", "TailwindCSS", "TypeScript"],
     description:
       "A personal portfolio showcasing my projects and skills, offering an interactive way to explore my experience. I also provide freelance design and development services—reach out anytime for collaborations or project inquiries.",
-    github: "",
-    live: "",
+    github: "https://github.com/PavanSacharya/pavan-acharya-portfolio",
+    live: "https://pavan-acharya.vercel.app/",
   },
   {
     title: "Internship: Automated Resume Analyzer",
