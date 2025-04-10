@@ -47,12 +47,7 @@ const HomePage: React.FC = () => {
           >
             Get in touch
           </Link>
-          <Link
-            href="#about"
-            className="bg-black border text-[#dad7cd] border-[#dad7cd] hover:bg-[#FFFFFF1A] hover:duration-100 ease-in transition-all py-3 px-6 text-[16px] mr-2 rounded-lg font-bold"
-          >
-            Learn More
-          </Link>
+          
         </div>
       </div>
     </section>

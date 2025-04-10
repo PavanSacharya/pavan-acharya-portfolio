@@ -17,6 +17,7 @@ const ContactPage = () => {
   return (
     <div className="relative">
       <div
+         id="contact"
         className="lg:text-[80px] text-center tracking-tighter text-foreground mt-10 !text-[#dad7cd]"
         style={{ fontFamily: "Degular, sans-serif", fontWeight: 600 }}
       >
