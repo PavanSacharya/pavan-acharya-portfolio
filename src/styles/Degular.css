@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Degular Variable";
+    src: url("/fonts/degular/Degular-Variable.woff2") format("woff2"),
+         url("/fonts/degular/Degular-Variable.woff") format("woff");
+    font-weight: 200 900; /* Adjust this range if needed */
+    font-style: normal;
+  }
+  
+  .example {
+    font-family: "Degular Variable", sans-serif;
+    font-variation-settings: 'opsz' 6, 'wght' 400, 'ital' 0;
+  }
+  

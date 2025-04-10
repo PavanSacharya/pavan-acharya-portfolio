@@ -1,0 +1,59 @@
+
+@import "../styles/Degular.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+@layer base {
+  .degular-variable {
+    font-family: "Degular Variable", sans-serif;
+    font-variation-settings: 'opsz' 6, 'wght' 400, 'ital' 0;
+  }
+}
+
+.blue__gradient {
+  background: linear-gradient(
+    180deg,
+    #fefae0 20%,
+     #588157 50%
+  );
+  /* background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%); */
+  filter: blur(283px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4c4 0%, #ff0000 100%);
+  filter: blur(900px);
+}
+@layer utilities {
+  .animate-scroll {
+    animation: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+}
