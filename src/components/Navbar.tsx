@@ -31,7 +31,7 @@ const Navbar = ({ className }: { className?: string }) => {
           ></MenuItem>
         </Link>
         
-        <Link href={"#projects"}>
+        <Link href={""}>
           <MenuItem setActive={setActive} active={active} item="DesignDev">
             <div className="flex flex-col space-y-4 text-sm">
               <HoveredLink href={"#uiux"}>
