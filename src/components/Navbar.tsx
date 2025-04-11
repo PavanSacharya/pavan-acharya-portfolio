@@ -30,29 +30,28 @@ const Navbar = ({ className }: { className?: string }) => {
             item="Home"
           ></MenuItem>
         </Link>
-        <Link href={"#graphicdesign"}>
-          <MenuItem
-            setActive={setActive}
-            active={active}
-            item="Poster"
-          ></MenuItem>
-        </Link>
-        <Link href={"#uiux"}>
-          <MenuItem
-            setActive={setActive}
-            active={active}
-            item="UIUX"
-          ></MenuItem>
-        </Link>
+        
         <Link href={"#projects"}>
-          <MenuItem setActive={setActive} active={active} item="Projects">
+          <MenuItem setActive={setActive} active={active} item="DesignDev">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="">
-                Portfolio
+              <HoveredLink href={"#uiux"}>
+                UIUX
               </HoveredLink>
-             
+              <HoveredLink href={"#graphicdesign"}>
+                Poster Design
+              </HoveredLink>
+              <HoveredLink href={"#projects"}>
+                Project
+              </HoveredLink>
             </div>
           </MenuItem>
+        </Link>
+        <Link href={"#freelance"}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="Freelance"
+          ></MenuItem>
         </Link>
         <Link href={"#about"}>
           <MenuItem setActive={setActive} active={active} item="About">

@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
             <span
 
               style={{ fontFamily: "Degular, sans-serif", fontWeight: "bold" }}
-              className="text-6xl lg:text-[130px]  text-[#a3b18a]"
+              className="text-6xl lg:text-[100px]  text-[#a3b18a]"
             >
               Pavan Acharya
             </span>
