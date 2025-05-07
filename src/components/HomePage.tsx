@@ -37,7 +37,7 @@ const HomePage: React.FC = () => {
 
           </h1>
           <p className="text-lg lg:text-xl xl:text-2xl 2xl:text-[40px] mt-4 text-[#7d8597] tracking-tight text-muted-foreground whitespace-nowrap"style={{ fontFamily: "Degular, sans-serif", fontWeight: "300" }}>
-            UIUX Designer | Graphic Designer | Passionate Coder
+            UIUX Designer | Graphic Designer | Developer
           </p>
         </div>
         {/* <div className="mt-10">
