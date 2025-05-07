@@ -40,7 +40,7 @@ const HomePage: React.FC = () => {
             UIUX Designer | Graphic Designer | Passionate Coder
           </p>
         </div>
-        <div className="mt-10">
+        {/* <div className="mt-10">
           <Link
             href="#contact"
             className="bg-black border text-[#dad7cd] border-[#dad7cd hover:bg-[#FFFFFF1A] hover:duration-100 ease-in transition-all py-3 px-6 text-[16px] mr-2 rounded-lg font-bold"
@@ -48,7 +48,7 @@ const HomePage: React.FC = () => {
             Get in touch
           </Link>
           
-        </div>
+        </div> */}
       </div>
     </section>
   );
