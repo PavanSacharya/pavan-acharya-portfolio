@@ -23,7 +23,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   live,
 }) => {
   return (
-    <CardContainer className="inter-var mx-4">
+    <CardContainer className="inter-var mx-3">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[25rem] h-auto rounded-xl p-6 border -mt-20 ">
         <CardItem
           translateZ="50"

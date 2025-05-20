@@ -2,6 +2,7 @@
 import resume from "../../public/assets/Project/resume.png";
 import jackfruit from "../../public/assets/Project/jackfruit.png";
 import portfolio_thumbnail from "../../public/assets/Project/Portfolio.png";
+import utsav from "../../public/assets/Project/utsav.png";
 
 
 const projects = [
@@ -31,6 +32,15 @@ const projects = [
       "A CNN-powered app using Streamlit to classify jackfruits into four species from images—simple, fast, and accurate.",
     github: "https://github.com/PavanSacharya/Classification-of-Jackfruit-species",
     live: "https://classification-of-jackfruit-species-etqbr4sykmkwindln2xsyk.streamlit.app/",
+  },
+   {
+    title: "Utsav:Event Management System",
+    thumbnail: utsav,
+    techStack: ["Javascript", "Php","MySql"],
+    description:
+      "Utsav is a dynamic event management system built using PHP and MySQL, designed to streamline event booking and management online.",
+    github: "https://github.com/PavanSacharya/Utsav",
+    live: "http://utsav-events.free.nf/",
   },
   
 ];
